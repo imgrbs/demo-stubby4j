@@ -1,0 +1,8 @@
+-  request:
+      method: GET
+      url: /api/login
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: auth.json
