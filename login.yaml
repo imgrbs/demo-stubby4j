@@ -1,5 +1,5 @@
 -  request:
-      method: GET
+      method: POST
       url: /api/login
    response:
       status: 200
