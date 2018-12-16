@@ -7,20 +7,19 @@
       status: 200
       headers:
          content-type: application/json
-      file: post/auth.json
+      file: ./post/auth.json
 
 -  request:
       method: GET
       url: /api/questions
       headers:
-         content-type: application/json
          authorization: Bearer EAADqRbN8ULMBAFYGSk9OFVLju44JkFSomac4ZCyZABMnmlSxxdoupBo4qs4FZC6A1iEvjW3AL6XGLO6B5uQiSPUxtuZCZA1aZAVWIQSDNZAlWMpeT9G9OTbf6gvbIkZB8T5iXF5bLv1ztmrrwtnRN54trwfF8wus5y7ptPycC1Y5tSIIRMCCSb5Qn7OumD3j6joE2D4tStMqgHfHcS119Q0r4vOgJnsZBAlkZD
 
    response:
       status: 200
       headers:
          content-type: application/json
-      file: get/questions.json
+      file: ./get/questions.json
 
 -  request:
       method: POST
@@ -34,4 +33,4 @@
       status: 200
       headers:
          content-type: application/json
-      file: post/questions_answers.json
+      file: ./post/questions_answers.json
